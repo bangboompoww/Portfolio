@@ -1,5 +1,8 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 /*!
+
 * Start Bootstrap - Freelancer v6.0.4 (https://startbootstrap.com/themes/freelancer)
 * Copyright 2013-2020 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
@@ -47,9 +50,14 @@
   box-sizing: border-box;
 }
 
+*{
+  font-family: Cooper,Georgia,Cambria,Times New Roman,Times,serif;
+
+}
+
 html {
-  font-family: sans-serif;
   line-height: 1.15;
+
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -68,7 +76,20 @@ body {
   text-align: left;
   background-color: #fff;
 }
+#Hello{
+  font-size: 2.2rem;
+  font-family: Cooper,Georgia,Cambria,Times New Roman,Times,serif;
+  font-weight: 700;
+}
 
+#link{
+  font-family: Cooper,Georgia,Cambria,Times New Roman,Times,serif;
+}
+
+#link1{
+  font-family: Cooper,Georgia,Cambria,Times New Roman,Times,serif;
+font-size: 2.1rem;
+}
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
